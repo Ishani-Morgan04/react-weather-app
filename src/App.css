@@ -1,0 +1,13 @@
+.App h1 {
+  margin-top: 20px;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.App footer {
+  font-size: 12px;
+  color: black;
+  text-align: center;
+}

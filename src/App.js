@@ -1,10 +1,12 @@
 import "./App.css";
+import Weather from "./Weather";
 
 export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <h1>Weather App</h1>
+        <h1>Weather Lens</h1>
+        <Weather />
         <footer>
           This project is coded by Ishani Morgan and it is {""}
           <a
