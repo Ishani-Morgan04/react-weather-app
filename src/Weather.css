@@ -1,31 +1,40 @@
 .Weather {
   background: radial-gradient(#0072b6, #050141);
-  border: 2px solid #3fdbf0;
+  border: 3px solid #3fdbf0;
   padding: 16px;
   margin: 20px auto;
-  max-width: 800px;
+  max-width: 1000px;
   border-radius: 5px;
   color: white;
 }
 
 .Weather h2 {
-  font-size: 28px;
+  font-size: 32px;
   font-weight: bold;
   line-height: 26px;
   padding-left: 30px;
   padding-top: 30px;
+  text-align: center;
+  word-spacing: 10px;
+  text-transform: uppercase;
 }
 
 .Weather li {
-  font-size: 20px;
+  font-size: 22px;
   line-height: 19x;
   list-style: none;
+  text-align: center;
 }
 
 .Weather form {
   padding-top: 10px;
   padding-left: 28px;
   padding-right: 28px;
+}
+
+.Weather .btn {
+  background: radial-gradient(#3fdbf0, #9198e5);
+  font-weight: bold;
 }
 
 .Weather canvas {
@@ -51,8 +60,15 @@
   font-weight: 400;
 }
 
+.Weather .description {
+  font-size: 20px;
+  margin-top: -10px;
+  margin-left: -60px;
+  text-align: left;
+}
+
 .Weather .weather-description {
   padding-top: 26px;
-  padding-left: 190px;
-  line-height: 30px;
+  padding-left: 200px;
+  line-height: 40px;
 }

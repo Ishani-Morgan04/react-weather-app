@@ -4,6 +4,7 @@
   color: rgb(2, 2, 93);
   text-align: center;
   text-transform: uppercase;
+  word-spacing: 10px;
 }
 
 .App footer {
