@@ -32,6 +32,10 @@ export default function FormattedDate(props) {
   let year = props.date.getFullYear();
 
   let hours = props.date.getHours();
+  let ampm = hours >= 12 ? "PM" : "AM";
+  hours = hours % 12;
+  hours = hours ? hours : 12; // the hour '0' should be '12'
+
   if (hours < 10) {
     hours = `0${hours}`;
   }
@@ -42,9 +46,6 @@ export default function FormattedDate(props) {
     minutes = `0${minutes}`;
   }
 
-  let ampm = hours >= 12 ? "PM" : "AM";
-  hours = hours % 12;
-  hours = hours ? hours : 12; // the hour '0' should be '12'
   return (
     <div>
       {day}, {date} {month} {year}
